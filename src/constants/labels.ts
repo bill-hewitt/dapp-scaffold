@@ -4,12 +4,15 @@ export const LABELS = {
   BORROWING_POWER_VALUE: "Borrowing Power",
   BORROWED_VALUE: "You borrowed",
   GIVE_SOL: "Give me SOL",
+  GIVE_NFT: "Mint me an NFT",
   LIQUIDATION_INFO:
     "This view displays all loans that can be liquidated. A liquidation is a process where borrower collateral does not cover value of the loan. It is represented by health factor falling below 1.0. When a loan is liquidated, an liquidator can purchase collateral at a discount by repaing the portio of the loan. ",
   FAUCET_INFO:
     "This faucet will help you fund your accounts outside of Solana main network.",
+  MINT_INFO: "This will airdrop a non-fungible token into your wallet.",
   ACCOUNT_FUNDED: "Account funded.",
   AIRDROP_FAIL: "Airdrop failed, please check you're not on mainnet or your localnet is running.",
+  MINT_FAIL: "Mint failed, please excuse us.",
   REPAY_QUESTION: "How much would you like to repay?",
   REPAY_ACTION: "Repay",
   RESERVE_STATUS_TITLE: "Reserve Status & Configuration",
